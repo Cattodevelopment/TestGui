@@ -1,1 +1,19 @@
+name: RcTestGui
+main: DaMagicGuy\TestGui\Main
+src-namespace-prefix: DaMagicGuy\TestGui 
+version: 1.0.0
+api: 4.0.0
+author: DaMagicGuy 
 
+
+commands:
+  test:
+    usage: "/test"
+   description: "command to open testgui"
+   permission: test.cmd 
+
+
+permissions:
+  test.cmd:
+   description: "Permissionto use test command"
+   default: op 
